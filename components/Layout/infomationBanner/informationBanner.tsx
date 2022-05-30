@@ -53,7 +53,7 @@ export default function InfomationBanner(props: InfomationBannerProps) {
         <div className="">
           <p className="text-xl">Hi, I am Ha Nhat Dan</p>
           <p className="text-xl font-bold py-5 pt-5">Front End Developer</p>
-          <p className="text-md pb-5">"Welcome to my cave 🔥"</p>
+          <p className="text-md pb-5">&quot;Welcome to my cave 🔥&quot;</p>
           {/* <ul className="grid grid-cols-2 gap-x-5">
             {info.map((items: data) => (
               <li className="flex items-center py-2 cursor-pointer">
