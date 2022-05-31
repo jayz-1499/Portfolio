@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <div className="text-xl font-bold text-center">
           <span>About My Education ✏️ 📖</span>
         </div>
-        <div className="grid grid-cols-3 gap-5 px-5 py-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 px-5 py-5">
           <CardItem
             imageUrl={'/images/fptLogo.jpeg'}
             time={'2017 - 2021'}
@@ -48,14 +48,13 @@ const Home: NextPage = () => {
         <div className="text-xl font-bold text-center">
           <span>Technical & Tools 💻</span>
         </div>
-        <div className="grid grid-cols-3 gap-5 px-5 py-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 px-5 py-5">
           <CardItem imageUrl={'/images/nextlogo.png'} major={'NextJS'} />
           <CardItem imageUrl={'/images/reactlogo.png'} major={'ReactJS'} />
           <CardItem imageUrl={'/images/tslogo.svg.png'} major={'TypeScript'} />
           <CardItem imageUrl={'/images/tailwindlogo.png'} major={'Tailwind CSS'} />
           <CardItem imageUrl={'/images/scsslogo.svg.png'} major={'SASS'} />
           <CardItem imageUrl={'/images/vslogo.svg.png'} major={'Visual Studio Code'} />
-         
         </div>
       </div>
     </div>

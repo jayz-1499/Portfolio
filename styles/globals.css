@@ -1,21 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Blaka:wght@300;400;500;600;700&display=swap");
 .bg-image {
- background-image: url("/images/background.jpg");
- background-repeat: no-repeat; 
- background-size: cover;
- position: fixed;
- z-index: 0;
- left: 0;
- right: 0;
- width: 100%;
- height: 100%;
- display: block;
- -webkit-filter: blur(5px);
- -moz-filter: blur(5px);
- -o-filter: blur(5px);
- -ms-filter: blur(5px);
- filter: blur(5px);
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+body {
+    font-family: "Blaka", cursive;
 }

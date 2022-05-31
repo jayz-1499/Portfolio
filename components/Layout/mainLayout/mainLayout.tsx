@@ -7,7 +7,7 @@ export default function MainLayout({ children }: { children: JSX.Element }) {
     <div>
       <div className="bg-image"></div>
       <div className="relative z-50">
-        <div className="mx-[25%] bg-white">
+        <div className="mx-0 sm:mx-0 md:mx-0 lg:mx-[20%] xl:mx-[25%] bg-white">
           <InfomationBanner />
           <div className="px-5">
             <BreadScrumb />
